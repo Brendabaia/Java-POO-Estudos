@@ -1,10 +1,17 @@
 package com.github.brendabaia.estudospoo.javacore.introducaoclasses.test;
 
-import com.github.brendabaia.estudospoo.javacore.introducaoclasses.dominio.Pessoas;
+import com.github.brendabaia.estudospoo.javacore.introducaoclasses.dominio.Estudante;
 
-public class PessoaTest01 {
+public class EstudanteTest01 {
     public static void main(String[] args) {
 
-        Pessoas.
+        Estudante estudante = new Estudante();
+        estudante.idade = 24;
+        estudante.nome = "Brenda";
+        estudante.sexo = 'F';
+
+        System.out.println(estudante.idade);
+        System.out.println(estudante.nome);
+        System.out.println(estudante.sexo);
     }
 }
