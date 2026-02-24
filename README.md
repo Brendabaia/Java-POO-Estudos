@@ -3,11 +3,11 @@
 Este repositório é dedicado exclusivamente ao estudo e aplicação prática dos pilares da **Programação Orientada a Objetos (POO)** utilizando Java. O objetivo principal é documentar minha evolução.
 
 ---
-
- ** Encapsulamento:** Proteção de dados (private/protected) e controle de acesso ao estado dos objetos via Getters e Setters.
- ** Herança:** Reutilização de comportamento e criação de hierarquias inteligentes entre classes (extends/super).
- ** Polimorfismo:** Flexibilidade de métodos (Sobrescrita e Sobrecarga) e tratamento de objetos de formas múltiplas.
- ** Abstração:** Isolamento de complexidade através de Interfaces e Classes Abstratas, focando no "o que faz" e não no "como faz".
+##
+* ** Encapsulamento:** Proteção de dados (private/protected) e controle de acesso ao estado dos objetos via Getters e Setters.
+* ** Herança:** Reutilização de comportamento e criação de hierarquias inteligentes entre classes (extends/super).
+* ** Polimorfismo:** Flexibilidade de métodos (Sobrescrita e Sobrecarga) e tratamento de objetos de formas múltiplas.
+* ** Abstração:** Isolamento de complexidade através de Interfaces e Classes Abstratas, focando no "o que faz" e não no "como faz".
 
 ---
 
