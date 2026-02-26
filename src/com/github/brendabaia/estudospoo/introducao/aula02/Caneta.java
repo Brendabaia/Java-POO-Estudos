@@ -1,10 +1,10 @@
-package com.github.brendabaia.estudospoo.introducao;
+package com.github.brendabaia.estudospoo.introducao.aula02;
 
 public class Caneta {
-    String modelo;
-    String cor;
-    double ponta;
-    boolean tampada;
+    public String modelo;
+    public String cor;
+    public double ponta;
+    private boolean tampada;
 
     void rabiscar(){
         if (this.tampada == true){

@@ -15,12 +15,14 @@ public class CarroTest01 {
         c2.modelo = "Sandero";
         c2.ano = 2019;
 
+        c1 = c2;
+
         System.out.println("Carro 1");
         System.out.println(c1.nome);
         System.out.println(c1.modelo);
         System.out.println(c1.ano);
 
-        System.out.println("Carro 2");
+        System.out.println("\nCarro 2");
         System.out.println(c2.nome);
         System.out.println(c2.modelo);
         System.out.println(c2.ano);
