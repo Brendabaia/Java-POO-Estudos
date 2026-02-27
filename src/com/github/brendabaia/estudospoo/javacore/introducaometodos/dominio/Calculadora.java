@@ -14,4 +14,21 @@ public class Calculadora {
     public void multiplicaDoisNumeros(int n1, int n2){
         System.out.println(n1 * n2);
     }
+    public double divideDoisNumeros(double num1, double num2){
+        if (num2 == 0){
+            return 0;
+        }
+        return num1/num2;
+    }
+
+    public void alteraDoisNumeros(int num1, int num2){
+        num1 = 99;
+        num2 = 33;
+        System.out.println("Dentro do alteraDoisNumero");
+        System.out.println("Num1 " + num1);
+        System.out.println("Num2 " + num2);
+
+    }
+
+
 }
