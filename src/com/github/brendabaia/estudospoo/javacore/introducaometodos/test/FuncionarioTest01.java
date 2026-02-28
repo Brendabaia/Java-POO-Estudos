@@ -4,11 +4,11 @@ import com.github.brendabaia.estudospoo.javacore.introducaometodos.dominio.Funci
 
 public class FuncionarioTest01 {
     public static void main(String[] args) {
-        Funcionario funcionario =  new Funcionario();
+        Funcionario funcionario = new Funcionario();
 
         funcionario.nome = "Brenda";
         funcionario.idade = 24;
-        funcionario.salarios = new float[] {1200, 987.32f, 2000};
+        funcionario.salarios = new float[]{1200, 987.32f, 2000};
 
         funcionario.imprime();
         funcionario.imprimeMediaSalario();

@@ -1,25 +1,35 @@
 package com.github.brendabaia.estudospoo.javacore.introducaometodos.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public float salarios [];
+    public String nome = null;
+    public int idade = 0;
+    public float salarios[] = null;
 
-    public void imprime(){
+    public void imprime() {
         System.out.println(this.nome);
         System.out.println(this.idade);
-        for (double salario: salarios){
+        if (salarios == null){
+            return;
+        }
+        for (double salario : salarios) {
             System.out.print(salario + " ");
         }
         imprimeMediaSalario();
     }
 
-    public void imprimeMediaSalario(){
+    public void imprimeMediaSalario() {
+
+        if (salarios != null) {
+            return;
+        }
         double media = 0;
-        for (double salario: salarios){
+
+        for (double salario : salarios) {
             media += salario;
         }
+
         media /= salarios.length;
+
         System.out.println("\nMedia salarial " + media);
     }
 
