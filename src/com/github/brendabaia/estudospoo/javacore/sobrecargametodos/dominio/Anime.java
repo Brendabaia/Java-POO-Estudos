@@ -4,6 +4,10 @@ public class Anime {
     private String tipo;
     private int episodios;
 
+    public Anime() {
+
+    }
+
     public void imprime(){
         System.out.println(this.tipo);
         System.out.println(this.episodios);
